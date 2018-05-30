@@ -1,0 +1,52 @@
+.space {
+  display: flex;
+  height: 20vh;
+  background-color: grey;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
+
+.portfolio-image {
+  background-image: url("../images/portfo2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 30vh;
+}
+
+.showcase {
+  margin-bottom: 40px;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+    h4 {
+      margin-top: 50px;
+      margin-left: 125px;
+      color: grey;
+      font-size: 30px;
+      margin-bottom: 50px;
+    }
+  p {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+  }
+}
+
+.photos {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.photo {
+  border: 2px solid black;
+  margin: 80px;
+  height: 250px;
+  width: 300px;
+}
+

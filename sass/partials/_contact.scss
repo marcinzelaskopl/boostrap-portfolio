@@ -1,0 +1,60 @@
+.space-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 50px;
+  height: 30vh;
+  background-image: url("../images/portfo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.contact {
+  height: 50vh;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    h6 {
+      font-size: 30px;
+    }
+  p {
+    color: grey;
+    font-style: italic;
+  }
+}
+
+.info-icons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  a {
+    text-decoration: none;
+    color: grey;
+    font-style: italic;
+  }
+}
+
+
+.icons {
+  margin-top: 5vh;
+  margin-bottom: 20px;
+  width: 8%;
+  height: 8%;
+}
+
+
+#map {
+  border: 5px solid black;
+  width: 50vh;
+  margin-top: 10vh;
+  height: 30vh;
+}

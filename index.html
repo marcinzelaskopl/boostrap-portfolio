@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="sass/main.css">
+    <script src="js/type.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script src="js/scrolling.js"></script>
+    <link rel="stylesheet" href="lightbox/src/css/lightbox.css">
+    <script src="js/map.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a id="home-link" href="#">HOME</a></li>
+                <li><a id="about-link" href="#">ABOUT</a></li>
+                <li><a id="portfolio-link" href="#">PORTFOLIO</a></li>
+                <li><a id="contact-link" href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="grid-container front front-info">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="welcome"></h1>
+                    <div id="front-btn" class="btn">
+                        <span>>SEE MORE</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="first-scroll" class="grid-container about">
+            <div class="row">
+                <div class="col-2"></div>
+                <div id="about-section" class="col-8 information">
+                    <h2>ABOUT ME</h2>
+                    <p class="sub-title">I love coding</p>
+                    <p class="small-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad
+                        consequuntur
+                        delectus
+                        ducimus eius eligendi labore magni molestiae molestias natus non odio officiis quam quibusdam
+                        ut, velit veniam voluptatibus voluptatum! Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Ad, ex, fugiat. A dolorem eos esse fuga fugit id libero officia officiis repudiandae
+                    </p>
+                    <img class="avatar" src="images/morda.jpg">
+                    <p class="small-text image-text">Welcome to my website. Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Accusamus ad architecto, atque consectetur eaque error est eum exercitationem expedita, officiis omnis pariatur quam quas quisquam reprehenderit tenetur, ut voluptate voluptatum?</p>
+                    <h2>Im pretty good at:</h2>
+                    <p>HTML</p>
+                    <div class="skill-showcase">
+                        <div class="skills html">90%</div>
+                    </div>
+
+                    <p>CSS</p>
+                    <div class="skill-showcase">
+                        <div class="skills css">80%</div>
+                    </div>
+
+                    <p>Web Design</p>
+                    <div class="skill-showcase">
+                        <div class="skills webdesign">65%</div>
+                    </div>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="portfolio-section" class="grid-container space">
+            <div class="row">
+                <div class="col-12">
+                    <h1>PORTFOLIO</h1>
+                </div>
+            </div>
+        </div>
+        <div class="grid-container portfolio-image">
+            <div class="row">
+                <div class="col-12">
+
+                </div>
+            </div>
+        </div>
+        <div class="grid-container showcase">
+            <div class="row">
+                <div class="col-12">
+                    <h4>MY WORK</h4>
+                    <p>Here are some of my latest work lorem ipsum.</p>
+                    <p>Click on the images to make them bigger.</p>
+                </div>
+            </div>
+        </div>
+        <div class="grid-container">
+            <div class="row">
+                <div class="col-12 photos modal">
+                       <a href="photos/sitOnChair.png" data-lightbox="photo"><img class="photo"
+                                                                              src="photos/sitOnChair.png"></a>
+                    <a href="photos/1.jpg" data-lightbox="photo"><img class="photo" src="photos/1.jpg"></a>
+                    <a href="photos/2.jpg" data-lightbox="photo"><img class="photo" src="photos/2.jpg"></a>
+                    <a href="photos/3.jpg" data-lightbox="photo"><img class="photo" src="photos/3.jpg"></a>
+                    <a href="photos/4.jpg" data-lightbox="photo"><img class="photo" src="photos/4.jpg"></a>
+                    <a href="photos/5.jpg" data-lightbox="photo"><img class="photo" src="photos/5.jpg"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="grid-container">
+            <div class="row">
+                <div class="col-12 space-about">
+                    <h1>CONTACT</h1>
+                </div>
+            </div>
+        </div>
+        <div id="contact-section" class="grid-container contact">
+            <div class="row">
+                <div class="col-12 contact-info">
+                    <h6>WHERE DO I WORK?</h6>
+                    <p>Let me know what you think!</p>
+                    <div class="info-icons">
+                        <img class="icons" src="icons/local.png"><p>Poland, Wrocław</p>
+                        <div id="map">
+                        </div>
+                        <img class="icons" src="icons/phone.png"><a href="tel:530753792">Just call me</a>
+                        <img class="icons" src="icons/mail.png"><a href="mailto:marcinzelaskov@gmail.com">Mail me!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="grid-container">
+            <div class="row">
+                <div class="col-12 foot">
+                    <a href="#" target="_blank"><img class="footer-icons"
+                                                     src="icons/facebook-logo-in-circular-button-outlined-social-symbol.png"></a>
+                    <a href="#" target="_blank"><img class="footer-icons" src="icons/instagram.png"></a>
+                    <a href="#" target="_blank"><img class="footer-icons"
+                                                          src="icons/social-linkedin-circular-button.png"></a>
+                    <span id="back" class="top-button">Back to the top!</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="lightbox/src/js/lightbox.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXawLGVrCN7gyv1DUtMCeJN-CTOqno-30&callback=myMap"></script>
+</body>
+</html>

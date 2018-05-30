@@ -1,0 +1,37 @@
+.front {
+  background-image: url("../images/front.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.front-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    h1 {
+      border: 1px solid white;
+      padding: 5px;
+      font-size: 3.9vh;
+      background-color: rgba(black, 1);
+      color: white;
+    }
+  .btn {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 5vh;
+      span {
+        border: 1px solid white;
+        background-color: black;
+        color: white;
+        padding: 15px 20px;
+        &:hover {
+          cursor: pointer;
+          box-shadow: inset 2px 2px 93px -30px rgba(255,255,255,0.67);
+        }
+      }
+  }
+}
